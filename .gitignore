@@ -1,0 +1,46 @@
+# Vivado temporary/cache directories
+.Xil/
+*.cache/
+*.runs/
+*.gen/
+*.sim/
+*.hw/
+*.ip_user_files/
+
+# Also catch Vivado folders nested inside projects
+**/.Xil/
+**/*.cache/
+**/*.runs/
+**/*.gen/
+**/*.sim/
+**/*.hw/
+**/*.ip_user_files/
+
+# Logs and journals
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+
+# Generated reports/checkpoints
+*.dcp
+*.rpt
+*.rpx
+
+# Generated bitstreams/programming files
+*.bit
+*.bin
+*.ltx
+
+# Simulation/generated output
+*.vcd
+*.fst
+*.saif
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
